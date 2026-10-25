@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body::before {
+    content: "";
+    display: block;
+    height: 4px;
+    background: linear-gradient(to right, #E79704, #EED300, #FFFFFF, #6DB8E0, #223F61);
+}
+
+.auth-bg {
+    background-color: #223F61;
+    background-image:
+        radial-gradient(ellipse at top left, rgba(231, 151, 4, 0.28), transparent 55%),
+        radial-gradient(ellipse at bottom right, rgba(109, 184, 224, 0.30), transparent 55%);
+    background-attachment: fixed;
+}
